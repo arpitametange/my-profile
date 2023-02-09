@@ -4,9 +4,39 @@
     <title>Contact Us</title>
     <!-- CDN link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            font-family: 'ltim', cursive;
+            color: rgb(105, 156, 28);
+            
+        }
+        form{
+            background: cadetblue;
+            display: inline;
+        }
+        label{
+            font-family: 'Roboto Condensed', sans-serif;
+        color: rgb(93, 32, 11);   
+        font-weight: bold;
+     }
+     input [type="text" ], ::placeholder,textarea{
+        color: blueviolet;
+     }
+     input[type='submit'],input[type='reset']{
+        color: brown;
+        font-weight: bolder;
+       
+     }
+     
+    </style>
 </head>
 <body>
-    <h1>Contact Us</h1>
+   <fieldset>
+    <legend><span> <h1>Contact Us</h1></span></legend>
+  
     <form >
     <table>
         <tr>
@@ -15,7 +45,7 @@
         </tr>
         <tr>
             <td><label for="">Mobile No: </label></td>
-            <td><input type="number"></td>
+            <td><input type="number" placeholder="Add the contact number"></td>
         </tr>
         <tr>
             <td><label for=""><label for="">Email:</label> </label></td>
@@ -30,6 +60,7 @@
           <td><input type="reset" value="clear"></td>
     </tr>
     </table>
+</fieldset>
 </form>
 
 
